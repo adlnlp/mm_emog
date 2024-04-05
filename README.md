@@ -46,3 +46,20 @@ This code may be found on the _"MentalHealthClassification_TextGCN.ipynb"_ file.
 <p align="center">
 	<img src="./figures/Overall_Performance.png" alt="MM-EMOG Results" style="max-width: 70%;">	     
 </p>
+
+##Citation
+```
+@Article{cabral2024mm-emog,
+AUTHOR = {Cabral, Rina Carines and Han, Soyeon Caren and Poon, Josiah and Nenadic, Goran},
+TITLE = {MM-EMOG: Multi-Label Emotion Graph Representation for Mental Health Classification on Social Media},
+JOURNAL = {Robotics},
+VOLUME = {13},
+YEAR = {2024},
+NUMBER = {3},
+ARTICLE-NUMBER = {53},
+URL = {https://www.mdpi.com/2218-6581/13/3/53},
+ISSN = {2218-6581},
+ABSTRACT = {More than 80% of people who commit suicide disclose their intention to do so on social media. The main information we can use in social media is user-generated posts, since personal information is not always available. Identifying all possible emotions in a single textual post is crucial to detecting the user’s mental state; however, human emotions are very complex, and a single text instance likely expresses multiple emotions. This paper proposes a new multi-label emotion graph representation for social media post-based mental health classification. We first construct a word–document graph tensor to describe emotion-based contextual representation using emotion lexicons. Then, it is trained by multi-label emotions and conducts a graph propagation for harmonising heterogeneous emotional information, and is applied to a textual graph mental health classification. We perform extensive experiments on three publicly available social media mental health classification datasets, and the results show clear improvements.},
+DOI = {10.3390/robotics13030053}
+}
+```
