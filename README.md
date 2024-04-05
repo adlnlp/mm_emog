@@ -47,7 +47,7 @@ This code may be found on the _"MentalHealthClassification_TextGCN.ipynb"_ file.
 	<img src="./figures/Overall_Performance.png" alt="MM-EMOG Results" style="max-width: 70%;">	     
 </p>
 
-##Citation
+## Citation
 ```
 @Article{cabral2024mm-emog,
 AUTHOR = {Cabral, Rina Carines and Han, Soyeon Caren and Poon, Josiah and Nenadic, Goran},
