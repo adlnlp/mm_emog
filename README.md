@@ -15,7 +15,7 @@ Accepted at Robotics (AI in Robotics) 2024: https://doi.org/10.3390/robotics1303
 - **Depression** ([download](https://github.com/swcwang/depression-detection)) - Twitter-based dataset used as the basis for the practice dataset for CLPsych 2021 ([paper](https://doi.org/10.18653/v1/2021.clpsych-1.7)).
 
 ### Emotion Lexicons
-Please download in to the __LEXICONS_ folder.
+Please download into the __LEXICONS_ folder.
 - **EmoLex** ([paper](https://doi.org/10.1111/j.1467-8640.2012.00460.x); [download](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm))
 - **TEC** ([paper](https://doi.org/10.1111/coin.12024); [download](https://saifmohammad.com/WebPages/lexicons.html))
 - **SenticNet** ([paper](https://aclanthology.org/2022.lrec-1.408); [download](https://sentic.net/downloads/))
@@ -39,7 +39,7 @@ TOKEN_TYPE = "wp"               #wp: WordPiece; ws: WordSplit
 
 We evaluate our MM-EMOG embeddings through mental health classification tasks. Similar to the MM-EMOG training, we leverage a two-layer TextGCN architecture that learns the mental health risk class for each evaluated dataset.
 
-This code may be found on the _"MentalHealthClassification_TextGCN.ipynb"_ file. As with the previous file data, preprocessing, tokenisation, and model parameters may be set on the code block under the _**Setup**_ section. To use the newly learned MM-EMOG embeddings, set the `mmemogFile` variable to the file path of the MM-EMOG .pkl file.
+This code may be found on the _"MentalHealthClassification_TextGCN.ipynb"_ file. As with the previous section, the data, preprocessing, tokenisation, and model parameters may be set on the code block under the _**Setup**_ section. To use the newly learned MM-EMOG embeddings, set the `mmemogFile` variable to the file path of the MM-EMOG .pkl file.
 
 ## Evaluation
 
