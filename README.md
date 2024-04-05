@@ -15,7 +15,7 @@ Accepted at Robotics (AI in Robotics) 2024: https://doi.org/10.3390/robotics1303
 - **Depression** ([download](https://github.com/swcwang/depression-detection)) - Twitter-based dataset used as the basis for the practice dataset for CLPsych 2021 ([paper](https://doi.org/10.18653/v1/2021.clpsych-1.7)).
 
 ### Emotion Lexicons
-Please download it to the __LEXICONS_ folder.
+Please download in to the __LEXICONS_ folder.
 - **EmoLex** ([paper](https://doi.org/10.1111/j.1467-8640.2012.00460.x); [download](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm))
 - **TEC** ([paper](https://doi.org/10.1111/coin.12024); [download](https://saifmohammad.com/WebPages/lexicons.html))
 - **SenticNet** ([paper](https://aclanthology.org/2022.lrec-1.408); [download](https://sentic.net/downloads/))
